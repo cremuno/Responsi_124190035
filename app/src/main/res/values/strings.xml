@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Covid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cvd_updtr">covid updater</string>
+    <string name="jbr_cvd_app">Jabar Covid App</string>
+    <string name="alamat">Alamat</string>
+    <string name="value">value</string>
+    <string name="rs_umum_ananda">RS Umum Ananda</string>
+    <string name="lokasi">Lokasi</string>
+</resources>

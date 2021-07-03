@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+    <TextView
+        android:id="@+id/tv_RumahSakit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:text="@string/rs_umum_ananda"/>
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat"
+        android:layout_below="@id/tv_RumahSakit"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv_alamatRS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value"
+        android:layout_toRightOf="@id/tv_alamat"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_RumahSakit"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/tv_alamat"
+        android:layout_marginStart="10dp" />
+    <Button
+        android:id="@+id/btn_maps"
+        android:text="@string/lokasi"
+        android:shadowColor="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_alamatRS"
+       />
+
+
+</RelativeLayout>
